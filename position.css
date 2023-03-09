@@ -1,0 +1,49 @@
+body {
+    margin: 0px auto;
+}
+
+html{
+    padding-bottom: 2000px;
+}
+
+div {
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.statico {
+    top: 10px;
+    background-color: #cccccc;
+    position: static;
+}
+
+.relativo {
+    position: relative;
+    top: 10px;
+    left: 10p;
+    background-color: red;
+} 
+
+.absolute {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: green;
+}
+
+.fixed {
+    position: fixed;
+    background-color: purple;
+    left: 500px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.sticky {
+    top: 10px;
+    position: sticky;
+    background-color: pink;
+    padding: 10px;
+    border: 1px solid black;
+}
